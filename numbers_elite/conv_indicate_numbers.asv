@@ -1,0 +1,11 @@
+
+% «агружаю картинки чисел дл€ »ндикации в массив (картинки должны быть
+% одинакого 
+for i = 0:9
+    limage = import_img_28to28('0.bmp');
+
+    [xim,yim] = size(limage);
+    r = reshape(limage,[],xim*yim);
+end
+
+
